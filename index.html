@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <title>Usługi Motoryzacyjne</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -57,8 +58,6 @@
       </div>
     </div>
   </section>
-  
-  
 
   <section id="about" class="about">
     <div class="about-overlay"></div> <!-- Przezroczysta warstwa -->
@@ -85,7 +84,9 @@
       <textarea id="message" placeholder="Wiadomość" required></textarea>
       <button type="submit">Wyślij</button>
     </form>
+    <div id="form-response" class="hidden"></div>
   </section>
+  
 
   <footer class="footer">
     <div class="footer-content">
@@ -121,6 +122,11 @@
     </div>
   </footer>
   
+  <a href="tel:+48123456789" class="call-button">
+    <i class="fas fa-phone"></i> Zadzwoń
+  </a>
+
+  <script src="script.js"></script>
   
 </body>
 </html>
