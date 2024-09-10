@@ -420,4 +420,100 @@ body {
       opacity: 1;
     }
   }
+
+  header {
+  
+    @media (max-width: 768px) {
+      padding: 0.5rem 1rem;
+      .logo {
+        font-size: 1.5rem; 
+      }
+      nav ul {
+        gap: 0.5rem; 
+      }
+    }
+  }
+  
+  
+  .hero {
+    
+    @media (max-width: 768px) {
+      .hero-content {
+        h1 {
+          font-size: 2rem; 
+        }
+        p {
+          font-size: 1rem; 
+        }
+        .cta-button {
+          padding: 0.5rem 1.5rem; 
+          font-size: 0.9rem; 
+        }
+      }
+    }
+  }
+  
+  
+  .services {
+    
+    
+    @media (max-width: 768px) {
+      .service {
+        width: 100%; 
+      }
+    }
+  }
+  
+
+  .about {
+   
+    
+    @media (max-width: 768px) {
+      .about-content {
+        .about-text {
+          font-size: 1rem; 
+        }
+      }
+    }
+  }
+  
+
+  .contact {
+    
+    @media (max-width: 768px) {
+      form {
+        input, textarea {
+          font-size: 0.9rem; 
+        }
+        button {
+          font-size: 1rem; 
+        }
+      }
+    }
+  }
+  
+  .footer {
+    
+    @media (max-width: 768px) {
+      .footer-content {
+        flex-direction: column; 
+        align-items: center;
+        .map-embed iframe {
+          height: 150px; 
+        }
+      }
+      .footer-bottom {
+        font-size: 0.8rem; 
+      }
+    }
+  }
+  
+  
+  .call-button {
+    @media (max-width: 768px) {
+      font-size: 1rem; 
+      padding: 0.5rem 1rem; 
+    }
+  }
+  
   
